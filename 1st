@@ -1,0 +1,11 @@
+<html>
+  <body>
+      <h1 id="one">WELCOME</h1>
+      <p>This is the welcome message.</p>
+      <h2>TECHNOLOGY</h2>
+      <p>This is the technology section.</p>
+      <script>
+        var text=document.getElementById("one").innerHTML;alert("The first heading is"+ text);
+      </script>
+  </body>
+</html>
