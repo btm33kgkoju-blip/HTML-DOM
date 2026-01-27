@@ -1,0 +1,14 @@
+<html>
+  <body>
+      <h1 id="DOM"> DOM </h1>
+      <p>Dom is written here</p>
+      <button type="button" onclick="Foundthesecret()">DON'T CLICK ME!!!</button>
+      <p id ="actuallyy CLICK"></p>
+      <script>
+        var text=document.getElementById("DOM").innerHTML;alert("That is actually"+ text);
+      </script>
+      <script src ="script.js">
+      </script>
+      
+  </body>
+</html>
